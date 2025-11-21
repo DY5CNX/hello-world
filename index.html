@@ -1,22 +1,55 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Hello World App</title>
+  <meta charset="UTF-8">
+  <title>NTC Online Reviewer</title>
   <style>
     body {
       font-family: Arial, sans-serif;
+      background-color: #f4f6f8;
       display: flex;
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-color: #f0f0f0;
+      margin: 0;
     }
+
+    .container {
+      text-align: center;
+      background: white;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
     h1 {
-      color: #333;
+      margin-bottom: 30px;
+      font-size: 24px;
+    }
+
+    button {
+      padding: 15px 40px;
+      margin: 10px;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: white;
+    }
+
+    button:hover {
+      background-color: #0056b3;
     }
   </style>
 </head>
 <body>
-  <h1>HELLO WORLD</h1>
+
+  <div class="container">
+    <h1>WELCOME TO NTC ONLINE REVIEWER</h1>
+    <button onclick="alert('Element 2 Clicked')">ELEMENT 2</button>
+    <button onclick="alert('Element 3 Clicked')">ELEMENT 3</button>
+  </div>
+
 </body>
 </html>
